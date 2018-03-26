@@ -14,12 +14,12 @@ class App extends React.Component {
     return (
       <div>
         <div className="container">
-          <h1>React PDFReader</h1>
+          <h1>React PDF Reader</h1>
           <p>
             current Page: <strong>{this.state.currentPage}</strong>
           </p>
           <hr />
-
+ 
           <PDFReader pdfUrl={pdfUrl} />
 
         </div>
