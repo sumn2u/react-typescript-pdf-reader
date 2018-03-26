@@ -4,7 +4,7 @@
 
 ![banner](assests/sample_reader.png)
 
-> In app Pdf reader for react app written
+> Pdf reader for create react app
 
 
 
