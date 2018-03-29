@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: 'pdf-icons';
-  src:  url('fonts/pdf-icons.eot?r7oshp');
-  src:  url('fonts/pdf-icons.eot?r7oshp#iefix') format('embedded-opentype'),
-    url('fonts/pdf-icons.ttf?r7oshp') format('truetype'),
-    url('fonts/pdf-icons.woff?r7oshp') format('woff'),
-    url('fonts/pdf-icons.svg?r7oshp#pdf-icons') format('svg');
+  src:  url('/fonts/pdf-icons.eot?r7oshp');
+  src:  url('/fonts/pdf-icons.eot?r7oshp#iefix') format('embedded-opentype'),
+    url('/fonts/pdf-icons.ttf?r7oshp') format('truetype'),
+    url('/fonts/pdf-icons.woff?r7oshp') format('woff'),
+    url('/fonts/pdf-icons.svg?r7oshp#pdf-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 

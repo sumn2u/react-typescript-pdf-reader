@@ -11,7 +11,7 @@ cache:
   - node_modules
 
 script:
-  - npm run demo
+  #- npm run demo
 
 deploy:
   provider: pages
