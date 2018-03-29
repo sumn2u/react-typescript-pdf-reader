@@ -2,7 +2,7 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/sumn2u/react-typescript-pdf-reader.svg)](https://github.com/sumn2u/react-typescript-pdf-reader/issues) [![GitHub forks](https://img.shields.io/github/forks/sumn2u/react-typescript-pdf-reader.svg)](https://github.com/sumn2u/react-typescript-pdf-reader/network) [![GitHub stars](https://img.shields.io/github/stars/sumn2u/react-typescript-pdf-reader.svg)](https://github.com/sumn2u/react-typescript-pdf-reader/stargazers) [![GitHub license](https://img.shields.io/github/license/sumn2u/react-typescript-pdf-reader.svg)](https://github.com/sumn2u/react-typescript-pdf-reader/blob/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/sumn2u/react-typescript-pdf-reader.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsumn2u%2Freact-typescript-pdf-reader)
 
-![banner](assests/sample_reader.png)
+![banner](assests/react_pdf.png)
 
 > Pdf reader for create react app
 
@@ -38,7 +38,7 @@ yarn add react-typescript-pdf-reader
 import PDFReader from 'react-typescript-pdf-reader'
 
 state = {
-    pdfUrl: 'https://arxiv.org/pdf/1801.10031v1.pdf' // or use an EmptyState
+    pdfUrl: 'https://arxiv.org/pdf/1801.10031v1.pdf' // or use any pdf url
 }
 
 render(){

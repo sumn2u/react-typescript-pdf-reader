@@ -15,7 +15,6 @@ class App extends React.Component {
         <div className="container">
           <h1><i className="pdf pdf-pdf"></i> React PDFReader</h1>
           <hr />
-
           <PDFReader pdfUrl={pdfUrl} />
 
         </div>
