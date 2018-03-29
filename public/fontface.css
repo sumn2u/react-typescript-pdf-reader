@@ -1,0 +1,150 @@
+
+
+/**--- Custom FOnts --**/
+
+@font-face {
+  font-family: 'pdf-icons';
+  src:  url('fonts/pdf-icons.eot?r7oshp');
+  src:  url('fonts/pdf-icons.eot?r7oshp#iefix') format('embedded-opentype'),
+    url('fonts/pdf-icons.ttf?r7oshp') format('truetype'),
+    url('fonts/pdf-icons.woff?r7oshp') format('woff'),
+    url('fonts/pdf-icons.svg?r7oshp#pdf-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+
+}
+
+[class^="pdf-"], [class*=" pdf-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pdf-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lms{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'pdf-icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pdf-home:before {
+  content: "\e900";
+}
+.pdf-settings:before {
+  content: "\e901";
+}
+.pdf-search:before {
+  content: "\e902";
+}
+.pdf-check-o:before {
+  content: "\e903";
+}
+.pdf-arrow:before {
+  content: "\e904";
+}
+.pdf-folder:before {
+  content: "\e905";
+}
+.pdf-logout:before {
+  content: "\e906";
+}
+.pdf-book:before {
+  content: "\e907";
+}
+.pdf-push:before {
+  content: "\e908";
+}
+.pdf-nosearch:before {
+  content: "\e909";
+}
+.pdf-check:before {
+  content: "\e90a";
+}
+.pdf-cancel:before {
+  content: "\e90b";
+}
+.pdf-enrolled:before {
+  content: "\e90c";
+}
+.pdf-pdf:before {
+  content: "\e90d";
+}
+.pdf-video:before {
+  content: "\e90e";
+}
+.pdf-trash:before {
+  content: "\e90f";
+}
+.pdf-error:before {
+  content: "\e910";
+}
+.pdf-library:before {
+  content: "\e911";
+}
+.pdf-create-course:before {
+  content: "\e912";
+}
+.pdf-team:before {
+  content: "\e924";
+}
+.pdf-reports:before {
+  content: "\e925";
+}
+.pdf-add:before {
+  content: "\e926";
+}
+.pdf-download:before {
+  content: "\e927";
+}
+.pdf-move:before {
+  content: "\e928";
+}
+.pdf-code:before {
+  content: "\e929";
+}
+.pdf-quiz:before {
+  content: "\e92a";
+}
+.pdf-course:before {
+  content: "\e92b";
+}
+.pdf-note:before {
+  content: "\e92c";
+}
+.pdf-doc:before {
+  content: "\e92d";
+}
+.pdf-zip:before {
+  content: "\e92e";
+}
+.pdf-other:before {
+  content: "\e92f";
+}
+.pdf-notification:before {
+  content: "\e930";
+}
+.pdf-zoom-in:before {
+  content: "\e931";
+}
+.pdf-zoom-out:before {
+  content: "\e932";
+}
+.pdf-image:before {
+  content: "\e933";
+}
+
