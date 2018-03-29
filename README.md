@@ -10,7 +10,7 @@
 
 ## Demo
 
-[https://sumn2u.github.io/react-pagination/](https://sumn2u.github.io/react-typescript-pdf-reader/)
+[https://sumn2u.github.io/react-typescript-pdf-reader/](https://sumn2u.github.io/react-typescript-pdf-reader/)
 
 ## Table of Contents
 

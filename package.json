@@ -3,12 +3,12 @@
   "version": "0.0.2",
   "description": " Pdf reader for react app written in Typescript",
   "main": "build/index.js",
-   "scripts": {
-     "start": "node scripts/start.js",
-     "build": "node scripts/build.js",
-     "demo": "node scripts/demo.js",
-     "test": "node scripts/test.js --env=jsdom"
-   },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "demo": "node scripts/demo.js",
+    "test": "node scripts/test.js --env=jsdom"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sumn2u/react-typescript-pdf-reader.git"

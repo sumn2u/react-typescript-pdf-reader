@@ -2,7 +2,6 @@ import React from "react";
 import PDFReader from "../lib";
 import "./app.css";
 
-// const App = () => (
 
 class App extends React.Component {
     state = {
@@ -14,10 +13,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="container">
-          <h1>React PDFReader</h1>
-          <p>
-            current Page: <strong>{this.state.currentPage}</strong>
-          </p>
+          <h1><i className="pdf pdf-pdf"></i> React PDFReader</h1>
           <hr />
 
           <PDFReader pdfUrl={pdfUrl} />

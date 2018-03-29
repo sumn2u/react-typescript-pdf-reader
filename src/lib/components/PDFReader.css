@@ -1,0 +1,78 @@
+@import url('fontface.css');
+body {
+	background: #eee;
+	font-family: 'open-sans';
+	font-size: 14px;
+}
+.pdf-header {
+	margin: 0;
+	padding: 15px 0;
+}
+.pdf-header h1 {
+	margin: 0;
+}
+.clearfix {
+	position: relative;
+}
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
+.pdf-btn-wrap span {
+	font-family: "Open Sans", sans-serif;
+}
+.pdf-btn-wrap {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.pdf-btn-wrap i {
+	font-size: 24px;
+}
+.pdf-btn-wrap .pdf-next-prev,
+.pdf-btn-wrap .pdf-page,
+.pdf-btn-wrap .pdf-zoom,
+.pdf-btn-wrap .pdf-download-wrap {
+	float: left;
+	width: 25%;
+}
+
+.pdf-btn-wrap .pdf-next-prev {
+	text-align: left;
+}
+.pdf-btn-wrap .pdf-next-prev button {
+	cursor: pointer;
+}
+.pdf-btn-wrap .pdf-next-prev button:focus {
+	outline: none;
+}
+.pdf-btn-wrap .pdf-next-prev .nextPage {
+	transform: rotate(-180deg);
+	position: relative;
+	top: -1px;
+}
+.pdf-btn-wrap .pdf-next-prev button {
+	border:  none;
+	background: transparent;
+	padding: 0;
+}
+.pdf-btn-wrap .pdf-page {}
+.pdf-btn-wrap .pdf-zoom span {
+	cursor: pointer;
+	margin-right: 5px;
+}
+.pdf-btn-wrap .pdf-download-wrap {
+	text-align: right;
+}
+.pdf-btn-wrap .pdf-download-wrap a {
+	color: #333;
+}
+
+.pdf-btn-wrap .pdf-next-prev button:hover,
+.pdf-btn-wrap .pdf-zoom span:hover,
+.pdf-btn-wrap .pdf-download-wrap a:hover {
+	color: #2196f3;
+}

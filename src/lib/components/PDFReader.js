@@ -35,7 +35,7 @@ class PDFReader extends React.Component<PDFReaderProps, PDFReaderState> {
         if(props.pdfUrl.length && props.pdfUrl !== undefined ) {
          setTimeout(() =>{
             this.readPDF()
-          }, 500);
+          }, 0);
         }
 
     }
@@ -176,22 +176,28 @@ class PDFReader extends React.Component<PDFReaderProps, PDFReaderState> {
     }
 
     render() {
-        return (<div className="pdf-btn-wrap">
+        return (<div><div className="pdf-btn-wrap clearfix">
             <div className="pdf-next-prev">
-                <button ref="prev"><i className="lms lms-arrow"></i></button>
-                <button className="nextPage" ref="next"><i className="lms lms-arrow"></i></button>
+                <button ref="prev"><i className="pdf pdf-arrow"></i></button>
+                <button className="nextPage" ref="next"><i className="pdf pdf-arrow"></i></button>
             </div>
             <div className="pdf-page">
                 <span>Page: <span ref="page_num"></span> / <span ref="page_count"></span></span>
             </div>
             <div className="pdf-zoom">
-                <span ref="zoomin">Zoom in</span> <span ref="zoomout">Zoom out</span>
+                <span ref="zoomin"><i className="pdf-zoom-in"></i></span> <span ref="zoomout"><i className="pdf pdf-zoom-out"></i></span>
             </div>
-            <div className="pdf-download">
-                {this.props.pdfUrl ? (<a href={this.props.pdfUrl}><i className="lms lms-download"></i></a>) : ''}
+            <div className="pdf-download-wrap">
+                {this.props.pdfUrl ? (<a href={this.props.pdfUrl} download><i className="pdf pdf-download"></i></a>) : ''}
             </div>
-            <canvas ref="canvas" className="pdf-file" />
-            </div>)
+            
+            </div>
+            <div className="pdf-file">
+                <canvas ref="canvas" />
+            </div>  
+
+            </div>  
+            )
 
     }
 }
